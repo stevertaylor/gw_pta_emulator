@@ -6,7 +6,7 @@ Users can read in GW characteristic strain spectra from black-hole population si
 ## Requirements
 
 * Standard python installation 
-  * matplotlib, numpy, math, sys, os, glob, cPickle)
+  * matplotlib, numpy, math, sys, os, glob, cPickle
 * Extra packages
   * george (can be cloned and installed from https://github.com/dfm/george)
   * emcee (can be cloned and installed from https://github.com/dfm/emcee)
