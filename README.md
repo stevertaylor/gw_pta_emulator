@@ -3,3 +3,14 @@ A notebook and data associated with the paper ["Constraints On The Dynamical Env
 
 Users can read in GW characteristic strain spectra from black-hole population simulations, re-bin for their own observing baseline, and construct new spectra. The notebook then allows the user to train a Gaussian process to emulate the spectral behavior at all frequencies across the astrophysical parameter space of supermassive black-hole binary environments.
 
+## Requirements
+
+* Standard python installation 
+  * matplotlib, numpy, math, sys, os, glob, cPickle)
+* Extra packages
+  * george (can be cloned and installed from https://github.com/dfm/george)
+  * emcee (can be cloned and installed from https://github.com/dfm/emcee)
+  * corner (can be cloned and installed from https://github.com/dfm/corner.py)
+  
+## Usage
+The notebook can be started from the command line using `jupyter notebook gp4ptas.ipynb`. Cells are excecuted in serial order using Shift+Enter.
